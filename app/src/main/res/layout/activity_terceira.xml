@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arvore"
+    android:backgroundTint="@color/branco"
+    android:backgroundTintMode="src_over"
+    android:orientation="vertical"
+    tools:context=".TerceiraActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/marrom"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="Pontos de vendas\nde sementes"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white"
+            android:textSize="32dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/campos"
+            app:cardElevation="8dp"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:src="@drawable/mapa"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/campos"
+            app:cardElevation="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plante as sementes compradas\npara salvar o meio ambiente.\nVeja o ranking dos usuarios\nque mais plantaram."
+                android:textAlignment="center"
+                android:background="@drawable/campos"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="26dp"
+                android:padding="2dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="@color/marrom"
+            android:text="Ver ranking"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="28dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
