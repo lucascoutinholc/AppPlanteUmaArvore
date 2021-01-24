@@ -86,7 +86,8 @@
             android:backgroundTint="@color/marrom"
             android:text="Entrar"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textSize="28dp" />
+            android:textSize="28dp"
+            android:onClick="entrar"/>
 
         <TextView
             android:layout_width="match_parent"
