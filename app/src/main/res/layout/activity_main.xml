@@ -1,18 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/arvore"
+    android:backgroundTint="@color/branco"
+    android:backgroundTintMode="src_over"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/marrom"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="Plante\numa\nárvore"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white"
+            android:textSize="32dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/campos"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:hint="Nome"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="28dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/campos"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:hint="E-mail"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="28dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/campos"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="28dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/cadastre_se_aqui"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="@color/marrom"
+            android:text="Entrar"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="28dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:text="Desenvolvido por Lucas Coutinho"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</ScrollView>
