@@ -18,4 +18,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, SegundaActivity.class);
         startActivity(intent);
     }
+
+    public void abrirCadastro(View view) {
+        Intent intent = new Intent(this, CadastroActivity.class);
+        startActivity(intent);
+    }
 }

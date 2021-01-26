@@ -74,7 +74,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/cadastre_se_aqui"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:onClick="abrirCadastro"/>
 
         <Button
             android:layout_width="match_parent"
