@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,7 +11,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <TextView
@@ -21,10 +20,11 @@
             android:background="@color/marrom"
             android:fontFamily="serif"
             android:gravity="center"
-            android:text="Plante\numa\nárvore"
+            android:text="@string/plante_numa_n_rvore"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/white"
-            android:textSize="32dp" />
+            android:textSize="32sp"
+            android:lines="3"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -36,9 +36,11 @@
             android:background="@drawable/campos"
             android:fontFamily="sans-serif"
             android:gravity="center"
-            android:hint="Nome"
+            android:hint="@string/nome"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textSize="28dp" />
+            android:textSize="28sp"
+            android:autofillHints=""
+            android:inputType="text"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -50,9 +52,11 @@
             android:background="@drawable/campos"
             android:fontFamily="sans-serif"
             android:gravity="center"
-            android:hint="E-mail"
+            android:hint="@string/e_mail"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textSize="28dp" />
+            android:textSize="28sp"
+            android:autofillHints=""
+            android:inputType="text"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -64,10 +68,11 @@
             android:background="@drawable/campos"
             android:fontFamily="sans-serif"
             android:gravity="center"
-            android:hint="Senha"
+            android:hint="@string/senha"
             android:inputType="textPassword"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textSize="28dp" />
+            android:textSize="28sp"
+            android:autofillHints=""/>
 
         <TextView
             android:layout_width="match_parent"
@@ -85,20 +90,10 @@
             android:layout_marginRight="60dp"
             android:layout_marginBottom="5dp"
             android:backgroundTint="@color/marrom"
-            android:text="Entrar"
+            android:text="@string/entrar"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textSize="28dp"
+            android:textSize="28sp"
             android:onClick="entrar"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
-            android:gravity="center"
-            android:text="Desenvolvido por Lucas Coutinho"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textSize="18dp"
-            android:textColor="@color/black"/>
 
     </LinearLayout>
 

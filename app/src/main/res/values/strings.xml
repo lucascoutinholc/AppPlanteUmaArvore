@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">AppPlanteUmaArvore</string>
     <string name="cadastre_se_aqui"><u>Cadastre-se aqui!</u></string>
+    <string name="plante_numa_n_rvore">Plante uma árvore</string>
+    <string name="nome">Nome</string>
+    <string name="e_mail">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="desenvolvido_por_lucas_coutinho">Desenvolvido por Lucas Coutinho</string>
 </resources>
