@@ -7,4 +7,13 @@
     <string name="senha">Senha</string>
     <string name="entrar">Entrar</string>
     <string name="desenvolvido_por_lucas_coutinho">Desenvolvido por Lucas Coutinho</string>
+    <string name="rvores_do_brasil">Árvores do Brasil</string>
+    <string name="escolha_sua_semente">Escolha sua semente:</string>
+    <string name="jacarand">Jacarandá</string>
+    <string name="rvore_1">Árvore 1</string>
+    <string name="ip_amarelo">Ipê Amarelo</string>
+    <string name="rvore_2">Árvore 2</string>
+    <string name="quaresmeira">Quaresmeira</string>
+    <string name="rvore_3">Árvore 3</string>
+    <string name="encontrar_onde_comprar">Encontrar onde comprar</string>
 </resources>
