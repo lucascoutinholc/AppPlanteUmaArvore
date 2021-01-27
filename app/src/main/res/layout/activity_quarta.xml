@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,10 +15,10 @@
         android:background="@color/marrom"
         android:fontFamily="serif"
         android:gravity="center"
-        android:text="Ranking"
+        android:text="@string/ranking"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/white"
-        android:textSize="32dp" />
+        android:textSize="32sp"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -30,10 +29,10 @@
         android:background="@drawable/campos"
         android:fontFamily="sans-serif"
         android:gravity="center"
-        android:text="Posição        Nome        Pontos"
+        android:text="@string/posi_o_nome_pontos"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/black"
-        android:textSize="22dp" />
+        android:textSize="22sp"/>
 
     <ListView
         android:id="@+id/ranking"
