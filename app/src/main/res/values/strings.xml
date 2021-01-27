@@ -16,4 +16,8 @@
     <string name="quaresmeira">Quaresmeira</string>
     <string name="rvore_3">Árvore 3</string>
     <string name="encontrar_onde_comprar">Encontrar onde comprar</string>
+    <string name="pontos_de_vendas_de_sementes">Pontos de vendas de sementes</string>
+    <string name="mapa">Mapa</string>
+    <string name="plante_as_sementes_compradas_para_salvar_o_meio_ambiente_veja_o_ranking_dos_usuarios_que_mais_plantaram">Plante as sementes compradas para salvar o meio ambiente. Veja o ranking dos usuarios que mais plantaram.</string>
+    <string name="ver_ranking">Ver ranking</string>
 </resources>

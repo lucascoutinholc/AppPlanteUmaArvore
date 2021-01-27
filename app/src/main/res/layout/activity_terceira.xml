@@ -12,7 +12,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <TextView
@@ -21,10 +21,10 @@
             android:background="@color/marrom"
             android:fontFamily="serif"
             android:gravity="center"
-            android:text="Pontos de vendas\nde sementes"
+            android:text="@string/pontos_de_vendas_de_sementes"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/white"
-            android:textSize="32dp" />
+            android:textSize="32sp" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -41,7 +41,8 @@
                 android:padding="10dp"
                 android:src="@drawable/mapa"
                 android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"/>
+                android:layout_marginRight="20dp"
+                android:contentDescription="@string/mapa" />
 
         </androidx.cardview.widget.CardView>
 
@@ -58,11 +59,11 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Plante as sementes compradas\npara salvar o meio ambiente.\nVeja o ranking dos usuarios\nque mais plantaram."
+                android:text="@string/plante_as_sementes_compradas_para_salvar_o_meio_ambiente_veja_o_ranking_dos_usuarios_que_mais_plantaram"
                 android:textAlignment="center"
                 android:background="@drawable/campos"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textSize="26dp"
+                android:textSize="26sp"
                 android:padding="2dp"/>
 
         </androidx.cardview.widget.CardView>
@@ -75,9 +76,9 @@
             android:layout_marginRight="60dp"
             android:layout_marginBottom="5dp"
             android:backgroundTint="@color/marrom"
-            android:text="Ver ranking"
+            android:text="@string/ver_ranking"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textSize="28dp"
+            android:textSize="28sp"
             android:onClick="verRanking"/>
 
     </LinearLayout>
