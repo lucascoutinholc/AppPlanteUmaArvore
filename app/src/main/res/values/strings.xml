@@ -22,4 +22,7 @@
     <string name="ver_ranking">Ver ranking</string>
     <string name="ranking">Ranking</string>
     <string name="posi_o_nome_pontos">Posição Nome Pontos</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="endere_o">Endereço</string>
+    <string name="cadastrar">Cadastrar</string>
 </resources>
