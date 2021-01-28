@@ -39,7 +39,8 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textSize="28sp"
             android:autofillHints=""
-            android:inputType="text"/>
+            android:inputType="text"
+            android:id="@+id/cadastroNome"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -55,7 +56,8 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textSize="28sp"
             android:autofillHints=""
-            android:inputType="text"/>
+            android:inputType="text"
+            android:id="@+id/cadastroEndereco"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -71,7 +73,8 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textSize="28sp"
             android:autofillHints=""
-            android:inputType="text"/>
+            android:inputType="textEmailAddress"
+            android:id="@+id/cadastroEmail"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -87,7 +90,8 @@
             android:inputType="textPassword"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textSize="28sp"
-            android:autofillHints=""/>
+            android:autofillHints=""
+            android:id="@+id/cadastroSenha"/>
 
         <Button
             android:layout_width="match_parent"
