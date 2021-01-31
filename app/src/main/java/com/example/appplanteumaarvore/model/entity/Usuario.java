@@ -1,4 +1,4 @@
-package com.example.appplanteumaarvore;
+package com.example.appplanteumaarvore.model.entity;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
